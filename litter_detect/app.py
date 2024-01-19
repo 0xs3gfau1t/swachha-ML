@@ -1,8 +1,6 @@
 from ultralytics import YOLO
 from flask import Flask, request
 from PIL import Image
-import uuid
-import cv2
 import random
 
 app = Flask(__name__)

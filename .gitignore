@@ -1,3 +1,7 @@
 bot/models
 data
 bot/.rasa
+*.pt
+*.jpeg
+*.jpg
+__pycache__
