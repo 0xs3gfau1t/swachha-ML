@@ -5,6 +5,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - how_to_start
   - bot_challenge
 
 responses:
@@ -22,6 +23,11 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_getting_started:
+  - text: "This is a smart waste management app.
+  Here you can do blablabla.
+  "
 
 session_config:
   session_expiration_time: 60
