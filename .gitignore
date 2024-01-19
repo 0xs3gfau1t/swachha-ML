@@ -5,3 +5,4 @@ bot/.rasa
 *.jpeg
 *.jpg
 __pycache__
+!bot/data

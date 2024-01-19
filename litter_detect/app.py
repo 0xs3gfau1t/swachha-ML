@@ -19,7 +19,7 @@ def predictImage():
         return {"message": "No image received"}
 
     print("[*]Detecting Image")
-    result = model([Image.open(image)], max_det=1,conf=0.6)[0]
+    result = model([Image.open(image)], max_det=1,conf=0.6, iou=0.8, nms=True)[0]
     print("[.]Detection complete")
     data = result.boxes.data.cpu().tolist()
     h, w = result.orig_shape
