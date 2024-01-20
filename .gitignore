@@ -1,9 +1,9 @@
-bot/models
+chatbot/models
 data
-bot/.rasa
+chatbot/.rasa
 *.pt
 *.jpeg
 *.jpg
 __pycache__
-!bot/data
+!chatbot/data
 .ipynb_checkpoints/
