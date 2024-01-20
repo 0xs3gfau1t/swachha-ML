@@ -7,3 +7,4 @@ chatbot/.rasa
 __pycache__
 !chatbot/data
 .ipynb_checkpoints/
+runs/detect*

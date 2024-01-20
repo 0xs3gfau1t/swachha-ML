@@ -1,13 +1,14 @@
 import torch
-from torchvision.io import read_image
 from torchvision import transforms
 from ultralytics import YOLO
 from flask import Flask, request
 from flask_cors import CORS
 from PIL import Image
+import uuid
+import cv2
 
-model_classify = torch.jit.load('garbage_jit.pt')
-model_detect = 
+model_classify = torch.jit.load('models/garbage_jit.pt')
+model_detect = YOLO('models/best.pt')
 print("Model loaded")
 
 # Define class names, image size and transform function
@@ -36,7 +37,7 @@ def predictImage():
     return {"class": pred_cls}
 
 
-@app.route("/api/detect/image", methods=["POST"])
+@app.route("/api/image", methods=["POST"])
 def detectImage():
     image = request.files["img"]
     if image is None:
@@ -72,7 +73,7 @@ def detectImage():
     return {"res":res,"frame": r}
 
 
-@app.route("/api/detect/video", methods=["POST"])
+@app.route("/api/video", methods=["POST"])
 def detectVideo():
     video = request.files["vid"]
 
@@ -140,4 +141,4 @@ def home():
     return {"message": "Moye moye"}
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3000, debug=True)
+    app.run(host="0.0.0.0", port=3001, debug=True)
