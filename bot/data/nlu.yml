@@ -1,93 +1,99 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - good morning
-    - good evening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - namaste
+      - namaskar
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - good morning
+      - good evening
+      - good afternoon
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
 
-- intent: how_to_start
-  examples: |
-    - how to register
-    - i am new there
-    - yo app kasari chalaune
-    - fohor ko gaadi kyari bolaune ho
-    - darta kasari garne
-    - I'm new to managing my waste smarter. How does this app work?
-    - I just downloaded the app. What's the first thing I should do?
-    - Can you show me a quick tour of the app's features?
-    - What different types of waste can I track and manage on here?
+  - intent: how_to_start
+    examples: |
+      - how to register
+      - i am new there
+      - yo app kasari chalaune
+      - fohor ko gaadi kyari bolaune ho
+      - darta kasari garne
+      - I'm new to managing my waste smarter. How does this app work?
+      - I just downloaded the app. What's the first thing I should do?
+      - Can you show me a quick tour of the app's features?
+      - What different types of waste can I track and manage on here?
 
-- intent: faq
-  examples: |
-    - kasari chalaune honi?
-    - k k chha yo app ma?
-    - what does this app do?
-    - praya sodhirahine prasna k k hun?
-    - k hunchha yo app ma?
-    - k?
-    - what?
-    - what this?
-    - kya be?
-    
+  - intent: faq
+    examples: |
+      - kasari chalaune honi?
+      - k k chha yo app ma?
+      - what does this app do?
+      - praya sodhirahine prasna k k hun?
+      - k hunchha yo app ma?
+      - k?
+      - what?
+      - what this?
+      - kya be?
 
-- intent: waste
-  examples: |
-    - what are the main types of waste?
-    - fohor ka parkaar haru k k hun?
-    - fohor kasta kasta hunchhan?
-    - fohor kasari bebasthapan garne?
-    - how to manage waste? 
-    
+  - intent: waste
+    examples: |
+      - what are the main types of waste?
+      - fohor ka parkaar haru k k hun?
+      - fohor kasta kasta hunchhan?
+      - fohor kasari bebasthapan garne?
+      - how to manage waste?
 
-
+  - intent: out_of_scope
+    examples: |
+      - I want to order food
+      - What is 2 + 2?
+      - Who's the US President?
+      - girlfriend chaiyo
+      - vok lagyo
+      - bhok lagyo
