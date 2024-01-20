@@ -8,6 +8,7 @@ intents:
   - how_to_start
   - bot_challenge
   - faq
+  - waste
 
 responses:
   utter_greet:
@@ -65,6 +66,33 @@ responses:
   Liquid waste, Solid Waste, 
   "
 
+
+  utter_waste:
+  - text: "There are mainly 5 kinds of waste namely; 
+  Liquid waste, Solid Waste, Organic Waste, Recyclable Waste
+  and Hazardous Waste. \n
+  
+  1. Liquid Waste:\n
+  Grease, oil, sludges, wash water, water detergent and dirty water.\n 
+  Ways of Disposal: Containment, Treatment, Disposal
+  \n
+  2. Solid Waste:\n
+  Garbage, glass and ceramics, Plastic, Paper, Metals and Tins.\n 
+  Ways of Disposal: Containment, Treatment, Disposal\n
+  
+  3.Organic Waste\n
+  Rotten meat, garden and food waste.\n 
+  Ways of Disposal: Decomposition\n 
+  
+  4. Recyclable Waste\n
+  Discarded items like metals, furniture, organic waste.\n 
+  Ways of Disposal: Obviously, recycle it. :D\n
+  
+  5. Hazardous Waste\n
+  Includes flammable, corrosive, toxic and reactive materials.\n 
+  Ways of Disposal: Recycling, Incineration and Destruction, Pyrolysis, Disposing in a landfill.
+  \n For more info; visit: https://dtmmix.co.uk/blog/types-of-waste/\n
+  "
 
 
 

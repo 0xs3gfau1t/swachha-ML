@@ -22,3 +22,10 @@ stories:
     - action: utter_greet
     - intent: faq
     - action: utter_faq
+
+- story: waste
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: waste
+    - action: utter_waste

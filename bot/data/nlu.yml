@@ -13,8 +13,8 @@ nlu:
     - hey there
     - let's go
     - hey dude
-    - goodmorning
-    - goodevening
+    - good morning
+    - good evening
     - good afternoon
 
 - intent: goodbye
@@ -79,6 +79,15 @@ nlu:
     - what?
     - what this?
     - kya be?
+    
+
+- intent: waste
+  examples: |
+    - what are the main types of waste?
+    - fohor ka parkaar haru k k hun?
+    - fohor kasta kasta hunchhan?
+    - fohor kasari bebasthapan garne?
+    - how to manage waste? 
     
 
 
