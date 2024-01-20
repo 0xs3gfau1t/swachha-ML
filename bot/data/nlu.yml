@@ -68,3 +68,17 @@ nlu:
     - Can you show me a quick tour of the app's features?
     - What different types of waste can I track and manage on here?
 
+- intent: faq
+  examples: |
+    - kasari chalaune honi?
+    - k k chha yo app ma?
+    - what does this app do?
+    - praya sodhirahine prasna k k hun?
+    - k hunchha yo app ma?
+    - k?
+    - what?
+    - what this?
+    - kya be?
+    
+
+
