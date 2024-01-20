@@ -62,7 +62,7 @@ nlu:
       - how to register
       - i am new there
       - yo app kasari chalaune
-      - fohor ko gaadi kyari bolaune ho
+      - fohor ko gaadi kasari bolaune ho
       - darta kasari garne
       - I'm new to managing my waste smarter. How does this app work?
       - I just downloaded the app. What's the first thing I should do?
@@ -97,3 +97,25 @@ nlu:
       - girlfriend chaiyo
       - vok lagyo
       - bhok lagyo
+  
+  - intent: recycle_waste
+    examples: |
+      - How can I recycle [glass](waste_type)?
+      - What's the best way to dispose of [paper](waste_type)?
+      - Can [glass](waste_type) be recycled?
+      - Tips for recycling [paper](waste_type)?
+      - How should I handle the recycling of [glass](waste_type)?
+      - Any suggestions for [paper](waste_type) recycling?
+      - Are [glass](waste_type) recyclable?
+      - Share info on recycling [paper](waste_type).
+      - What to do with [glass](waste_type)?
+      - How to recycle [paper](waste_type) properly?
+
+  # - intent: recycle_waste
+  #   examples: |
+  #     - I want to order [pizza](food)
+  #     - What is [pizza](food)?
+  #     - Who's the US [pizza](food)?
+  #     - girlfriend chaiyo [pizza](food)
+  #     - vok lagyo [pizza big](food)
+  #     - bhok lagyo [pizza big](food)

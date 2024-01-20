@@ -27,3 +27,10 @@ stories:
     - action: utter_greet
     - intent: waste
     - action: utter_waste
+
+- story: recycle_waste
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: recycle_waste
+    - action: action_recycle_waste

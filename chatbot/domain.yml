@@ -9,6 +9,13 @@ intents:
   - bot_challenge
   - faq
   - waste
+  - recycle_waste
+
+entities:
+  - food
+
+actions:
+  - action_recycle_waste
 
 responses:
   utter_greet:
@@ -91,7 +98,6 @@ responses:
   Ways of Disposal: Recycling, Incineration and Destruction, Pyrolysis, Disposing in a landfill.
   \n For more info; visit: https://dtmmix.co.uk/blog/types-of-waste/\n
   "
-
 
   utter_reply_faq:
   - text: Here are frequently asked question.
