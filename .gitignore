@@ -6,3 +6,4 @@ bot/.rasa
 *.jpg
 __pycache__
 !bot/data
+.ipynb_checkpoints/
