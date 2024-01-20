@@ -15,7 +15,6 @@ source venv/bin/activate
 pip install rasa
 pip install -r garbage_classification/requirements.txt
 ```
-
 **Start Rasa Chatbot**
 ```
 cd chatbot
@@ -28,3 +27,4 @@ rasa run actions
 cd garbage_classification
 python app.py
 ```
+Main application repo: https://github.com/0xs3gfau1t/Swachha
