@@ -13,3 +13,17 @@ stories:
   - action: utter_greet
   - intent: how_to_start
   - action: utter_getting_started
+
+- story: additional info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: faq
+    - action: utter_faq
+
+- story: waste
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: waste
+    - action: utter_waste

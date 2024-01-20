@@ -7,6 +7,8 @@ intents:
   - deny
   - how_to_start
   - bot_challenge
+  - faq
+  - waste
 
 responses:
   utter_greet:
@@ -23,9 +25,73 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_getting_started:
-  - text: "This is a smart waste management app.
-  Here you can do blablabla.
+  - text: "Hello there, I am your assistant for this application.\n
+  You can find your details on the profile section.\n
+  You can track the garbage truck as well public dustbin in the map section.\n
+  You can request the permission for garbage truck.\n
+  You can inform about your garbage to the management section.\n
+  You can also pay your waste management bill through the gateway payment section.\n
+  Have a Nice Day!
   "
+
+  utter_faq:
+  - text: "Frequently Asked Questions:\n\n
+  What is this app?\n
+  --> Fohor Malai is a smart waste collection app that
+  digitize the waste management flow from collection 
+  to developing more efficient waste management.
+  Basically transitioning to a echo friendly way of
+  managing waste especially like in developing countries
+  like Nepal.\n\n
+  
+  Is this Subscription based application?\n
+  --> Not at all. It's an application made for the government 
+  useage i.e an communal app. However you can pay your waste 
+  management bill payments through this application.\n\n
+  
+  Can I add information to this application?\n
+  --> Yes please, we highly value volunteers to help us 
+  expand. Please provide your information on the contact page.\n\n
+  
+  What are the common questions to ask on here? \n
+  --> What are the common types of garbage.\n
+  What is my remaining bill?\n
+  How many reporting is still available for me?\n
+  "
+
+  utter_garbage:
+  - text: "There are mainly 5 kinds of waste namely; 
+  Liquid waste, Solid Waste, 
+  "
+
+
+  utter_waste:
+  - text: "There are mainly 5 kinds of waste namely; 
+  Liquid waste, Solid Waste, Organic Waste, Recyclable Waste
+  and Hazardous Waste. \n
+  
+  1. Liquid Waste:\n
+  Grease, oil, sludges, wash water, water detergent and dirty water.\n 
+  Ways of Disposal: Containment, Treatment, Disposal
+  \n
+  2. Solid Waste:\n
+  Garbage, glass and ceramics, Plastic, Paper, Metals and Tins.\n 
+  Ways of Disposal: Containment, Treatment, Disposal\n
+  
+  3.Organic Waste\n
+  Rotten meat, garden and food waste.\n 
+  Ways of Disposal: Decomposition\n 
+  
+  4. Recyclable Waste\n
+  Discarded items like metals, furniture, organic waste.\n 
+  Ways of Disposal: Obviously, recycle it. :D\n
+  
+  5. Hazardous Waste\n
+  Includes flammable, corrosive, toxic and reactive materials.\n 
+  Ways of Disposal: Recycling, Incineration and Destruction, Pyrolysis, Disposing in a landfill.
+  \n For more info; visit: https://dtmmix.co.uk/blog/types-of-waste/\n
+  "
+
 
   utter_reply_faq:
   - text: Here are frequently asked question.
